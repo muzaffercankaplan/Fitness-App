@@ -1,0 +1,22 @@
+.bodyParts_name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.bodyParts_name:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    color: var(--color2);
+}
+
+.focused {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 20px;
+    cursor: pointer;
+    color: var(--color2);
+}
