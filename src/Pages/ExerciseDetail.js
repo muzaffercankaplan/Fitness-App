@@ -23,7 +23,6 @@ const ExerciseDetail = () => {
     oneFetchData();
   }, [id]);
 
-  console.log(oneExercise);
   return (
     <div>
       <Detail item={oneExercise} />
