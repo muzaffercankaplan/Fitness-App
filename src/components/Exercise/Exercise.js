@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
+import { exerciseOptions, fetchData } from "../../Utils/FetchData";
 import "./Exercise.css";
 import ExerciseCard from "./ExerciseCard";
 import SelectBar from "./SelectBar/SelectBar";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import { exerciseOptions, fetchData } from "../../Utils/FetchData";
 
 const Exercise = ({
   bodyName,
@@ -40,7 +39,7 @@ const Exercise = ({
   }, [selectBodyPart, setExercise, setMore]);
 
   return (
-    <div name="exercise" className="body_container">
+    <div className="body_container">
       <div className="scroll_container">
         {bodyName.map((item, i) => (
           <div key={item.id || i}>
@@ -64,7 +63,7 @@ const Exercise = ({
             <div onClick={() => setMore(more + 9)} className="more_show">
               more show...
             </div>
-            <BsFillArrowUpCircleFill onClick={() => setMore(9)} size={30} />
+            {/* <BsFillArrowUpCircleFill  onClick={() => setMore(9)} size={30} /> */}
           </div>
         )}
       </div>

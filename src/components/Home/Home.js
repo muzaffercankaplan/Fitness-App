@@ -4,7 +4,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div name="home" className="home_container">
+    <div id="Home" className="home_container">
       <div className="home_main">
         <div className="text_container">
           <p>

@@ -41,7 +41,7 @@ const Search = ({ setExercise, setBodyName, setMore }) => {
   };
 
   return (
-    <div className="search_container">
+    <div id="Exercise" className="search_container">
       <p className="search_title">
         Awesome Exercise You <br /> Should Know
       </p>

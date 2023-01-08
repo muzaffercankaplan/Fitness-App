@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -25,12 +24,12 @@ const Navbar = () => {
           Fitness<span className="empty_word">Time</span>
         </p>
         <div className="navbar_links_container">
-          <Link className="navbar_links" to="/">
+          <a className="navbar_links" href="/#Home">
             Home
-          </Link>
-          <Link className="navbar_links" to="/">
+          </a>
+          <a className="navbar_links" href="/#Exercise">
             Exercise
-          </Link>
+          </a>
         </div>
       </div>
     </div>

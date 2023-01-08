@@ -8,7 +8,6 @@ const HomePages = () => {
   const [bodyName, setBodyName] = useState([]);
   const [selectBodyPart, setSelectBodyPart] = useState("all");
   const [more, setMore] = useState(9);
-
   return (
     <div>
       <Home />

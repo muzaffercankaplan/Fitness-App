@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Detail from "../components/ExerciseDetail/Detail";
-import ExerciseVideo from "../components/ExerciseDetail/ExerciseVideo";
 
-import { fetchData, exerciseOptions } from "../Utils/FetchData";
+import { exerciseOptions, fetchData } from "../Utils/FetchData";
 
 const ExerciseDetail = () => {
   const [oneExercise, setOneExercise] = useState({});
@@ -28,7 +27,7 @@ const ExerciseDetail = () => {
   return (
     <div>
       <Detail item={oneExercise} />
-      <ExerciseVideo />
+      {/* <ExerciseVideo /> */}
     </div>
   );
 };
