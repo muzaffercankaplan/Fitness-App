@@ -1,6 +1,6 @@
 # Fitness App
 
-[Try Fitness App](https://github.com/muzaffercankaplan/Fitness-App)
+[Try Fitness App](https://fitness-app-cxq.pages.dev/)
 
 ---
 
